@@ -19,14 +19,21 @@ p{
 
 }
 
-.centrar{
-	text-align: center;
-}
 
 .chica{
 	font-size: 1vw;
 }
 
+
+.circulitos{
+	width: 20px;
+	height: 20px;
+	border-radius:50%;
+	background-color: grey;
+	color: grey;
+	margin: 2%;
+	display: block;
+}
 
 #contenedor{
   position: relative;
@@ -34,6 +41,9 @@ p{
   margin: auto;
   width: 65%;
   max-width: 500px;
+
+	
+	
 }
 
 #carrusel{
